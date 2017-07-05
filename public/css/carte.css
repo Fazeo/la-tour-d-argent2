@@ -1,0 +1,254 @@
+img[src="/img/small-logo.svg"] {
+    background-color: #c8ae87;
+    padding:10px;
+}
+#menu li a {
+    font-size: 11px;
+    color: black;
+}
+
+#burger {
+    top: 40%;
+}
+
+body {
+    font-family: 'Playfair Display', 'Great Vibes', sans-serif;
+}
+
+div h1 {
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+    width: auto;
+    font-size: 40px;
+}
+
+.flatterie p {
+    text-align: center;
+    white-space: pre-line;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #c8ae87;
+    font-family: 'PlayFair Display', sans-serif;
+}
+
+.proposition {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 50px auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.first-propos {
+    width: 30%;
+    height: 300px;
+    scale: 1;
+    background-image: url(../img/Comme-un-vacherin-fraises-des-bois-mangue.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-transition: -webkit-transform .6s ease-in-out;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
+}
+
+.first-propos:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-box-shadow: -1px 0px 16px 0px rgba(50, 50, 50, 0.63);
+    box-shadow: -1px 0px 16px 0px rgba(50, 50, 50, 0.63);
+}
+
+.second-propos {
+    width: 30%;
+    height: 300px;
+    background-image: url(../img/Fleurs-printanières-floralies-cristallisées-mousse-de-rose-sorbet-framboise-et-champagne-rosé-gelée-de-miel-de-notre-toit-barbe-à-papa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: 100%;
+    -webkit-transition: -webkit-transform .6s ease-in-out;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
+}
+
+.second-propos:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-box-shadow: -1px 0px 16px 0px rgba(50, 50, 50, 0.63);
+    box-shadow: -1px 0px 16px 0px rgba(50, 50, 50, 0.63);
+}
+
+.third-propos {
+    width: 30%;
+    height: 300px;
+    background-image: url(../img/Fraises-Ciflorette-XXL-sur-un-biscuit-onctueux-Traou-Mad-crème-glacée-italienne-à-la-fève-Tonka-marbré-de-granité.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: 100%;
+    -webkit-transition: -webkit-transform .6s ease-in-out;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
+}
+
+.third-propos:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-box-shadow: -1px 0px 16px 0px rgba(50, 50, 50, 0.63);
+    box-shadow: -1px 0px 16px 0px rgba(50, 50, 50, 0.63);
+}
+
+.container-menu-choice {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.choice-menu {
+    font-size: 22px;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding-bottom: 15px;
+    -webkit-transition: border-color .2s ease-in;
+    transition: border-color .2s ease-in;
+    border-bottom: 2px solid transparent;
+}
+
+.choice-menu:hover {
+    border-color: #c8ae87;
+}
+
+.arrow-indication {
+    width: 40px;
+    height: 40px;
+    ;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-image: url(../img/arrow.svg);
+    -webkit-background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-transform: rotate(90deg);
+}
+
+.text-menu {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.span {
+    color: #000 !important;
+    font-family: Playfair display, sans-serif;
+}
+
+h2 {
+    color: #c8ae87;
+    white-space: pre-line;
+    line-height: 1;
+    font-family: 'Great Vibe', cursive;
+    text-transform: capitalize;
+    font-size: 24px !important;
+    padding: 22px;
+    ;
+}
+
+.bidouille {
+    white-space: pre-line;
+    padding-bottom: 10px;
+}
+
+.babou {
+    white-space: pre-line;
+    ;
+    ;
+}
+
+.ingredients {
+    white-space: pre-line;
+    line-height: 1.5;
+}
+
+.left-image {
+    width: 30%;
+    height: 600px;
+    background-image: url("../img/Foie-gras-de-canard-grillé-laqué-au-vinaigre-de-cerise-fleur-de-sureau-poivre-ciboulette-camomille-amandes-douces-...-V1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+.left-image2 {
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/Comme-un-vacherin-fraises-des-bois-mangue.jpg");
+    height: 600px;
+    background-attachment: fixed;
+}
+
+.left-image3 {
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/Brochet-sauvage-des-Gravières-de-Vétheuil-quenelle-hommage-au-grand-père-sauce-fleurette-champêtre-verveine-....jpg");
+    height: 600px;
+    background-attachment: fixed;
+}
+
+.center-menu {
+    width: 40%;
+    height: 600px;
+    text-align: center;
+}
+
+hr {
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-right: auto;
+    border-style: dashed;
+    ;
+    border-width: 1px;
+    margin-left: auto;
+    border-color: #c8ae87;
+}
+
+.rigth-image {
+    width: 30%;
+    height: 600px;
+    background-image: url("../img/Foie-gras-de-canard-grillé-laqué-au-vinaigre-de-cerise-fleur-de-sureau-poivre-ciboulette-camomille-amandes-douces-...-V1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.rigth-image2 {
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/Comme-un-vacherin-fraises-des-bois-mangue.jpg");
+    height: 600px;
+    background-attachment: fixed;
+}
+
+.rigth-image3 {
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/Brochet-sauvage-des-Gravières-de-Vétheuil-quenelle-hommage-au-grand-père-sauce-fleurette-champêtre-verveine-....jpg");
+    height: 600px;
+    background-attachment: fixed;
+}

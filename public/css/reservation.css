@@ -1,0 +1,216 @@
+#burger {
+    top: 40%;
+}
+
+#burger span,
+#burger span:before,
+#burger span:after {
+    background: white;
+}
+
+body {
+    font-family: 'Playfair Display', 'Great Vibes', sans-serif;
+    background-image: url(/img/le-restaurant-la-tour-d-argent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+
+.sofiane {
+    height: calc(100vh - 95px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.sofiane h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 94px;
+    opacity: 0;
+    -webkit-animation-name: salaud;
+    -webkit-animation-duration: 4s;
+    -webkit-fill-mode: forwards;
+    -webkit-animation-delay: 2s;
+    text-transform: uppercase;
+}
+
+@-webkit-keyframes salaud {
+    from {
+        opacity:  0;
+    }
+    to {
+        opacity : 1;
+    }
+}
+
+::-webkit-input-placeholder {
+    color: #777;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #777;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #777;
+}
+
+:-ms-input-placeholder {
+    color: #777;
+}
+
+.section-header {
+    overflow: hidden;
+}
+
+section h2 {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 50px;
+    font-size: 30px;
+    font-family: 'Great vibes', cursive;
+    color: #c8ae87;
+    ;
+    ;
+}
+
+#contact {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'PlayFair Display', sans-serif;
+}
+
+select,
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="date"],
+#contact input[type="time"],
+#contact input[type="tel"],
+#contact textarea {
+    display: block;
+    margin: 10px auto;
+    width: 30%;
+    font-size: 18px;
+    color: #777;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#contact input[type="email"] {
+    width: 63%;
+}
+
+select {
+    ;
+    background: none;
+    ;
+}
+
+#contact textarea {
+    font-size: 16px;
+}
+
+#contact input:hover,
+#contact textarea:hover {
+    border: 1px solid #888;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    border: 1px solid #777;
+}
+
+#contact textarea {
+    resize: none;
+    min-height: 180px;
+    max-width: 100%;
+    min-width: 97%;
+}
+
+#contact .send-button {
+    text-align: center;
+}
+
+#contact .send-button button[type="submit"] {
+    color: #fff;
+    background: #C8ae87;
+    border: none;
+    width: 15%;
+    padding: 10px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    -webkit-transition: .5s all ease;
+    transition: .5s all ease;
+    cursor: pointer;
+}
+
+#contact .send-button button[type="submit"]:hover {
+    width: 30%;
+}
+
+#contact .send-button button[type="submit"]:focus {
+    position: relative;
+    top: 2px;
+}
+
+.left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    #menu {
+        padding-top: 0;
+        margin-top: 40px;
+    }
+}
+
+
+/*######################################\*
+              Responsive
+\*######################################*/
+
+
+/*@media screen and (min-width: 640px){
+    .container{
+        width: 600px;
+    }
+  
+  #contact textarea{
+    max-width: 98%;
+    min-width: 98%;
+    min-height: 152px;
+    margin-right: 0;
+  }
+
+    #contact .right,#contact .left{
+        display: block;
+    }
+
+    #contact .right{
+        float: right;
+        width: 50%;
+    }
+  
+    #contact .left{
+        float: left;
+        width: 50%;
+    }
+    .cl{
+    clear: both;
+  }
+}*/

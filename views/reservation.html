@@ -1,0 +1,78 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>La tour d'argent</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="stylesheet" href="/css/reservation.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <div>
+                <div id="burger">
+                    <span></span>
+                </div>
+            </div>
+            <a href="/"><img src="/img/small-logo.svg" alt="Logo"></a>
+            <ul>
+                <li><a href="/heritage">Une Tour De Prestige</a></li>
+                <li><a href="/un_gout_nouveau">Un Goût Nouveau</a></li>
+                <li><a href="/carte">Carte & Menu</a></li>
+                <li><a href="/reservation">Réservation</a></li>
+                <li><a href="https://www.comptoirdelatour.com/fr" target="_blank">E-boutique</a></li>
+                <li><a href="#">Un Tour D'univers</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="sofiane">
+                <h1>réservation</h1>
+            </div>
+        </section>
+
+        <section>
+            <h2>réserver une table</h2>
+            <form id="contact" action="#" method="post">
+                <div class="left">
+                    <input type="date" placeholder="Date" required="required" />
+                    <input type="time" min=9:00 max=17:00 step=900 placeholder="Heure" required="required" />
+                    <input type="text" placeholder="Nombre de Couverts" required="required" />
+                </div>
+
+                <div class="left">
+                    <select>
+		        <option value="CIvilité">Civilité</option>
+		        <option value="Monsieur">Monsieur</option>
+		        <option value="Madame">Madame</option>
+		      </select>
+                    <input type="text" placeholder="Nom" required="required" />
+                    <input type="text" placeholder="Prénom" required="required" />
+                </div>
+
+                <div class="left">
+                    <input type="email" placeholder="Email" required="required" />
+                    <input type="tel" placeholder="Téléphone" required="required" />
+                </div>
+
+                <div class="right">
+                    <textarea placeholder="Message" required="required"></textarea>
+                </div>
+                <div class="send-button cl">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </section>
+
+
+    </main>
+
+</body>
+
+</html>
